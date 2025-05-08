@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 24px;
+}
+
+form{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 8px;
+}
+
+button{
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.container{
+    background-color: pink;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 8px 0 32px;
+    margin-top: 16px;
+    border: 1px solid red;
+    border-radius: 12px;
+}
+
+ul li{
+    font-size: 24px;
+    text-align: center;
+    list-style: circle;
+    cursor: pointer;
+}
+
+.line{
+    text-decoration: line-through;
+}
